@@ -1,0 +1,34 @@
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  li {
+    padding: 0;
+    a.github:hover {
+      background-color: #181717;
+    }
+    a.linkedin:hover {
+      background-color: #0077B5;
+    }
+    a.instagram:hover {
+      background-color: #E4405F;
+    }
+    a.twitter:hover {
+      background-color: #1DA1F2;
+    }
+    a {
+      background-color: #888888;
+      width: 50px;
+      height: 50px;
+      border-radius: 25%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 25px;
+      }
+    }
+  }
+}

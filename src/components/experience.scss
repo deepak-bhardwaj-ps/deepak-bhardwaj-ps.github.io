@@ -1,0 +1,123 @@
+.experience-section {
+  background-color: #992f15;
+  color: #fbffe5;
+  padding: 20px 0;
+}
+.timeline {
+  width: 80%;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #ee964b;
+    z-index: 1;
+  }
+  .timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+    .marker {
+      min-width: 16px;
+      max-width: 16px;
+      min-height: 16px;
+      max-height: 16px;
+      border-radius: 50%;
+      border: 2px solid #fcffa8;
+      background: #fcffa8;
+      margin-top: 10px;
+      z-index: 9999;
+    }
+    .timeline-content {
+      width: 95%;
+      padding: 0 15px;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          margin: 10px 0;
+          padding: 0;
+        }
+      }
+      h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 0.5rem;
+      }
+      span {
+        font-size: 15px;
+      }
+      p {
+        font-size: 1.25rem;
+        line-height: 1.5em;
+        word-spacing: 1px;
+      }
+      .icon {
+        color: #fbffe5;
+      }
+    }
+    &:nth-child(odd) {
+      float: right;
+      .timeline-content {
+        .icon {
+          margin-right: 8px;
+        }
+      }
+    }
+    &:nth-child(even) {
+      float: left;
+      direction: rtl;
+      .timeline-content {
+        .icon {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+    width: 95%;
+    &:before {
+      left: 8px;
+      width: 2px;
+    }
+    .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+      &:nth-child(odd) {
+        float: none;
+      }
+      &:nth-child(even) {
+        float: none;
+        direction: ltr;
+        .timeline-content {
+          .icon {
+            margin-left: 0;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+}

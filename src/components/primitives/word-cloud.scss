@@ -1,0 +1,33 @@
+.cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: #76A329;
+  :nth-child(2n + 1) {
+    font-size: 1em;
+    color: #F42C04;
+  }
+  :nth-child(3n + 1) {
+    font-size: 1.25em;
+    color: #e15a97;
+  }
+  :nth-child(4n + 1) {
+    font-size: 1.75em;
+    color: #E2C044;
+  }
+  :nth-child(5n + 1) {
+    font-size: 2em;
+    color: #30ACCF;
+  }
+  :nth-child(6n + 1) {
+    font-size: 2.25em;
+    color: #9b287b;
+  }
+  .word {
+    margin: 0 10px;
+    align-items: center;
+    display: flex;
+    padding: 0 1rem;
+  }
+}
