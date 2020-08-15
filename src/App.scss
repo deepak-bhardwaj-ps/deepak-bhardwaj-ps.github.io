@@ -51,6 +51,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: Montserrat;
+  padding-left: 100px
 }
 .app {
   scroll-snap-type: x mandatory;
@@ -65,7 +66,7 @@ body {
     overflow-y: scroll;
     min-width: 50vw;
     display: flex;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
   }
 }
 
@@ -79,8 +80,9 @@ body {
 }
 
 @media (max-width: 600px) {
-  body {
+  html, body {
     font-size: 14px;
+    padding: 0;
   }
   .app {
     scroll-snap-type: x mandatory;
@@ -94,6 +96,7 @@ body {
       max-width: 100vw;
       min-width: 100vw;
       max-height: unset;
+      scroll-snap-align: start;
     }
   }
   .title {

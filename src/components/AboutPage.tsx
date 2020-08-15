@@ -10,7 +10,7 @@ export const AboutPage = (props: {
   socialProfiles: ISocialProfiles;
 }) => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="About">
       <div className="content">
         <h1>
           Hi! I'm {props.name}{" "}

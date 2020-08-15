@@ -9,13 +9,13 @@
       background-color: #181717;
     }
     a.linkedin:hover {
-      background-color: #0077B5;
+      background-color: #0077b5;
     }
     a.instagram:hover {
-      background-color: #E4405F;
+      background-color: #e4405f;
     }
     a.twitter:hover {
-      background-color: #1DA1F2;
+      background-color: #1da1f2;
     }
     a {
       background-color: #888888;
@@ -28,6 +28,20 @@
 
       img {
         width: 25px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      a.github {
+        background-color: #181717;
+      }
+      a.linkedin {
+        background-color: #0077b5;
+      }
+      a.instagram {
+        background-color: #e4405f;
+      }
+      a.twitter {
+        background-color: #1da1f2;
       }
     }
   }

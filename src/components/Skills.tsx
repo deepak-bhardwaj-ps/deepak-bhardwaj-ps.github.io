@@ -4,7 +4,7 @@ import { WordCloud } from "./primitives/WordCloud";
 
 export const Skills = (props: { skills: string[] }) => {
   return (
-    <section className="all-skills-section">
+    <section className="all-skills-section" id="AllSkills">
       <div>
         <div className="title">All Skills</div>
         <div className="skills-container">

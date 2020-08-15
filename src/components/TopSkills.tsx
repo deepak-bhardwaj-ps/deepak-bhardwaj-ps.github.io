@@ -6,7 +6,7 @@ import { RadialProgressBar } from './primitives/RadialProgressBar'
 export const TopSkills = (props: { list: ISkill[] }) => {
   const ts = props.list.map((s) => <TopSkill {...s} />);
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="TopSkills">
       <div>
         <div className="title">Top Skills</div>
         <div className="top-skills">{ts}</div>;

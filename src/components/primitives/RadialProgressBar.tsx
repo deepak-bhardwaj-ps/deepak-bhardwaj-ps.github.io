@@ -23,7 +23,7 @@ export const RadialProgressBar = (props: {
            a 40 40 0 0 1 0 -80"
       />
       <image
-        xlinkHref={"https://ico.now.sh/" + props.icon + "/fff"}
+        href={"https://ico.now.sh/" + props.icon + "/fff"}
         x="25"
         y="25"
         width={50}

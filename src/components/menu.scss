@@ -1,0 +1,42 @@
+.menu {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #0A0A0A;
+  color: #a5c5e9;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+  .avatar {
+    width: 200px;
+    padding: 8px;
+    img {
+      border-radius: 50%;
+      max-width: 184px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #0A0A0A;
+  }
+
+  li a {
+    display: block;
+    color: #a5e9b1;
+    padding: 8px 16px;
+    line-height: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+  }
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #a5e9b1;
+    color: #2b2d42;
+  }
+}

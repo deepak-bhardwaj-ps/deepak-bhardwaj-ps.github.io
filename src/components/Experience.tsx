@@ -11,7 +11,7 @@ import {
 export const Experience = (props: { list: IExperience[] }) => {
   const ei = props.list.map((exp) => <ExperienceItem {...exp} />);
   return (
-    <section id="experience" className="experience-section">
+    <section id="Experience" className="experience-section">
       <div>
         <div className="title">Experience</div>
         <div className="timeline">{ei}</div>
