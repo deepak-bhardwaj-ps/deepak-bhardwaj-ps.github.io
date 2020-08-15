@@ -40,6 +40,9 @@ const portfolio: IPortfolio = {
     "Full-Stack Development",
     "Application Security",
     "Docker",
+    "Adobe Photoshop CC",
+    "Adobe Lightroom Classic",
+    "Portrait Photography"
   ],
   topSkills: [
     {
@@ -104,16 +107,7 @@ const portfolio: IPortfolio = {
       startDate: new Date("2010-05-01"),
       endDate: new Date("2014-07-14"),
       description:
-        "Writing code for assigned modules within defined time frame" +
-        "Designing views using XAML, Visual Studio or Expression Blend" +
-        "Developing Windows Services" +
-        "Developing WCF Services" +
-        "Optimize the code as per FxCop rules" +
-        "Writing unit test cases for MS Unit" +
-        "Review the code as per company/industry coding standards & code optimizations" +
-        "Guiding team mates on completing their modules" +
-        "Delivery of modules within defined timelines" +
-        "Exploring new technologies",
+        "At ANALEC I led the development of of Customer Relation Manager platform for on of the largest European bank",
     },
     {
       jobTitle: "Freelancer",
@@ -135,11 +129,7 @@ const portfolio: IPortfolio = {
       startDate: new Date("2009-06-01"),
       endDate: new Date("2010-04-30"),
       description:
-        "Primary Responsibilities" +
-        "Writing code for assigned modules within defined timeframe." +
-        "Review the code against company/industry coding standards & code optimisations." +
-        "Preparing deployment packages & update releases using InstallShield and/or Microsoft .Net Setup Project" +
-        "Writing technical documentations & release notes.",
+        "I was responsible for writing code for an interactive education platform",
     },
   ],
 };

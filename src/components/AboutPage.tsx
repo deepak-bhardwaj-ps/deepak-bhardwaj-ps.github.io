@@ -1,15 +1,16 @@
-import React from 'react'
-import './about-page.scss'
+import React from "react";
+import "./about-page.scss";
 import Image from "../assets/about-page-bg.svg";
 import { ISocialProfiles } from "../portfolio.type";
 import { SocialLinks } from "./SocialLinks";
 
-export const AboutPage = (props: {name: string, story: string, socialProfiles: ISocialProfiles}) => {
+export const AboutPage = (props: {
+  name: string;
+  story: string;
+  socialProfiles: ISocialProfiles;
+}) => {
   return (
-    <section
-      className="about-section"
-      style={{ backgroundImage: Image, color: "red" }}
-    >
+    <section className="about-section">
       <div className="content">
         <h1>
           Hi! I'm {props.name}{" "}
@@ -25,4 +26,4 @@ export const AboutPage = (props: {name: string, story: string, socialProfiles: I
       </div>
     </section>
   );
-}
+};
