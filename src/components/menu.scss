@@ -1,7 +1,7 @@
 .menu {
   position: absolute;
   left: 0;
-  width: 200px;
+  width: 250px;
   height: 100vh;
   background-color: #0A0A0A;
   color: #a5c5e9;
@@ -9,18 +9,18 @@
     display: none;
   }
   .avatar {
-    width: 200px;
+    width: 250px;
     padding: 8px;
     img {
       border-radius: 50%;
-      max-width: 184px;
+      max-width: 234px;
     }
   }
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 250px;
     background-color: #0A0A0A;
   }
 

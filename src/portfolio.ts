@@ -43,7 +43,7 @@ const portfolio: IPortfolio = {
     "Adobe Photoshop CC",
     "Adobe Lightroom Classic",
     "Portrait Photography",
-    "R3 Corda"
+    "R3 Corda",
   ],
   topSkills: [
     {
@@ -160,6 +160,38 @@ const portfolio: IPortfolio = {
       source: "linkedin",
       description:
         "In an enterprise application, ops and support teams plays a critical role in success of the application. Supporting a 24 x 7 x 365 running enterprise application is not an easy job; it becomes even harder with number...",
+    },
+  ],
+  achievements: [
+    {
+      title: "Associate Cloud Engineer",
+      provider: "googlecloud",
+      issueData: new Date("2020-05-01"),
+      expiryDate: new Date("2022-05-31"),
+    },
+    {
+      title: "Learning Terraform",
+      provider: "linkedin",
+      issueData: new Date("2020-05-01"),
+      expiryDate: null,
+    },
+    {
+      title: "Modernizing Data Lakes and Data Wharehouses with GCP",
+      provider: "coursera",
+      issueData: new Date("2020-05-01"),
+      expiryDate: null,
+    },
+    {
+      title: "DevSecOps: Continuous Application Security",
+      provider: "linkedin",
+      issueData: new Date("2020-05-01"),
+      expiryDate: null,
+    },
+    {
+      title: "Big Data and Machine Learning Fundamentals",
+      provider: "coursera",
+      issueData: new Date("2020-05-01"),
+      expiryDate: null,
     },
   ],
 };

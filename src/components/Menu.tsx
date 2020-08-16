@@ -24,6 +24,9 @@ export const Menu = () => {
         <li>
           <a href="#BlogPosts">Blog Posts</a>
         </li>
+        <li>
+          <a href="#Achievements">Achievements</a>
+        </li>
       </ul>
     </div>
   );

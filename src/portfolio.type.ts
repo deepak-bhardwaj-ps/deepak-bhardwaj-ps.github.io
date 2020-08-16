@@ -6,6 +6,7 @@ export interface IPortfolio {
   skills: string[];
   socialProfile: ISocialProfiles;
   blogPosts: IBlogPost[];
+  achievements: IAchievement[];
 }
 
 export interface IExperience {
@@ -37,4 +38,11 @@ export interface IBlogPost {
   url: string;
   description: string;
   source: string;
+}
+
+export interface IAchievement {
+  title: string;
+  provider: string;
+  issueData: Date;
+  expiryDate: Date | null;
 }

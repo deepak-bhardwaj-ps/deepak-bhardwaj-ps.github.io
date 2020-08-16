@@ -1,0 +1,70 @@
+.achievements-section {
+  background-color: #efefef;
+  padding-top: 20px;
+  .title {
+    color: #000;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+    .card {
+      width: 100%;
+      height: 200px;
+      background-color: #fff;
+      border-radius: 20px;
+      display: flex;
+      box-shadow: 0px 14px 20px rgba(125, 125, 125, 0.4);
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-top: 20px;
+      }
+      .image {
+        min-width: 200px;
+        max-width: 200px;
+        background-image: linear-gradient(147deg, #333 0%, #000 74%);
+        // padding: 40px;
+        border-radius: 20px 0 0 20px;
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 768px) {
+          border-radius:50%;
+          max-width: 100px;
+          width: 100px;
+        }
+        img {
+          margin: 25%;
+        }
+      }
+      .content {
+        padding: 20px;
+
+        .title {
+          color: #000;
+          font-size: 1.5rem;
+          letter-spacing: 0.15rem;
+          text-align: left;
+          font-weight: 500;
+          margin-top: 20px;
+          @media screen and (max-width: 768px) {
+            text-align: center;
+          }
+        }
+        .issuer, .date {
+          color: #888;
+          line-height: 2rem;
+        }
+      }
+    }
+  }
+}
