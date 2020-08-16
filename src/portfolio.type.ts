@@ -5,6 +5,7 @@ export interface IPortfolio {
   topSkills: ISkill[];
   skills: string[];
   socialProfile: ISocialProfiles;
+  blogPosts: IBlogPost[];
 }
 
 export interface IExperience {
@@ -28,4 +29,12 @@ export interface ISocialProfiles {
   linkedIn?: string;
   twitter?: string;
   instagram?: string;
+}
+
+export interface IBlogPost {
+  title: string;
+  date: Date;
+  url: string;
+  description: string;
+  source: string;
 }

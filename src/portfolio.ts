@@ -42,7 +42,8 @@ const portfolio: IPortfolio = {
     "Docker",
     "Adobe Photoshop CC",
     "Adobe Lightroom Classic",
-    "Portrait Photography"
+    "Portrait Photography",
+    "R3 Corda"
   ],
   topSkills: [
     {
@@ -130,6 +131,35 @@ const portfolio: IPortfolio = {
       endDate: new Date("2010-04-30"),
       description:
         "I was responsible for writing code for an interactive education platform",
+    },
+  ],
+  blogPosts: [
+    {
+      title: "Transforming our ways of working",
+      date: new Date("2020-04-23"),
+      url:
+        "https://medium.com/engineered-publicis-sapient/transforming-our-ways-of-working-wow-300a62546717",
+      source: "medium",
+      description:
+        "Prologue: It’s been a while: we haven’t met our friends, families, or even neighbors in-person for the last few weeks, and the credit goes to the COVID-19 pandemic. We are all going through such…",
+    },
+    {
+      title: "Story of client empathy and technology adaptation",
+      date: new Date("2019-10-11"),
+      url:
+        "https://www.linkedin.com/pulse/story-client-empathy-technology-adaptation-deepak-bhardwaj/",
+      source: "linkedin",
+      description:
+        "During 2008 financial crisis, several investment banks, across countries, collapsed. To promote the financial stability of the country - many financial regulators emerged, and regulatory guidelines enforced...",
+    },
+    {
+      title: "Digital Operations Assistant",
+      date: new Date("2018-06-03"),
+      url:
+        "https://www.linkedin.com/pulse/digital-operations-assistant-deepak-bhardwaj/",
+      source: "linkedin",
+      description:
+        "In an enterprise application, ops and support teams plays a critical role in success of the application. Supporting a 24 x 7 x 365 running enterprise application is not an easy job; it becomes even harder with number...",
     },
   ],
 };
