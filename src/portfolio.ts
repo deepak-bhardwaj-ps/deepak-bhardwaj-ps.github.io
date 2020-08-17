@@ -170,6 +170,12 @@ const portfolio: IPortfolio = {
       expiryDate: new Date("2022-05-31"),
     },
     {
+      title: "Workshop Participation: Digital Photo Manipulation by Dheny Patungka",
+      provider: "adobephotoshop",
+      issueData: new Date("2018-01-26"),
+      expiryDate: null,
+    },
+    {
       title: "Learning Terraform",
       provider: "linkedin",
       issueData: new Date("2020-05-01"),

@@ -5,6 +5,7 @@
   height: 100vh;
   background-color: #0A0A0A;
   color: #a5c5e9;
+  box-shadow: 8px 0px 25px #00000080;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -30,8 +31,9 @@
     padding: 8px 16px;
     line-height: 4rem;
     font-weight: 400;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
     text-decoration: none;
+    text-align: left;
   }
 
   /* Change the link color on hover */

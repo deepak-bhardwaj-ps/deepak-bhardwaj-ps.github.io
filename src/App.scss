@@ -86,7 +86,7 @@ body {
     padding: 0;
   }
   .app {
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: y proximity;
     overflow-x: unset;
     display: block;
     max-height: 100vh;
