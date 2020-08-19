@@ -4,7 +4,7 @@
   top: 0;
   width: 250px;
   height: 100vh;
-  background-color: #0A0A0A;
+  background-color: #0a0a0a;
   color: #a5c5e9;
   box-shadow: 8px 0px 25px #00000080;
   @media screen and (max-width: 768px) {
@@ -23,9 +23,11 @@
     margin: 0;
     padding: 0;
     width: 250px;
-    background-color: #0A0A0A;
+    background-color: #0a0a0a;
   }
-
+  li {
+    border-left: solid 2px #0a0a0a;
+  }
   li a {
     display: block;
     color: #a5e9b1;
@@ -41,5 +43,9 @@
   li a:hover {
     background-color: #a5e9b1;
     color: #2b2d42;
+  }
+
+  li.active {
+    border-left: solid 2px #f9b61a;
   }
 }

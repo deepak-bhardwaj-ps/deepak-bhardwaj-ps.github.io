@@ -1,6 +1,7 @@
 import React from "react";
 import "./menu.scss"
 import Avatar from "../avatar.png"
+import Scrollspy from "react-scrollspy"
 
 export const Menu = () => {
   return (
@@ -8,7 +9,19 @@ export const Menu = () => {
       <div className="avatar">
         <img src={Avatar} alt="Deepak Bhardwaj" />
       </div>
-      <ul>
+      {/* <ul> */}
+      <Scrollspy
+        items={[
+          "About",
+          "TopSkills",
+          "AllSkills",
+          "Experience",
+          "BlogPosts",
+          "Achievements",
+        ]}
+        currentClassName="active"
+        rootEl=".app"
+      >
         <li>
           <a href="#About">About Me</a>
         </li>
@@ -27,7 +40,8 @@ export const Menu = () => {
         <li>
           <a href="#Achievements">Achievements</a>
         </li>
-      </ul>
+      </Scrollspy>
+      {/* </ul> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ import { Achievements } from "./components/Achievements";
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app" id="app">
       <Menu/>
       <AboutPage name={Portfolio.name} story={Portfolio.story} socialProfiles={Portfolio.socialProfile} />
       <TopSkills list={Portfolio.topSkills} />
