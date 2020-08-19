@@ -1,6 +1,10 @@
 .all-skills-section {
   background-color: #FFFFFF;
   padding: 20px 0;
+  > div {
+    width: 100%;
+    align-self: center;
+  }
   .title {
     color: #000;
   }

@@ -19,13 +19,13 @@ export const AchievementCard = (props: { content: IAchievement }) => {
     <div className="card">
       <div className="image">
         <img
-          src={"https://ico.now.sh/" + props.content.provider + "/fff"}
+          src={"https://ico.now.sh/" + props.content.icon + "/fff"}
           alt={props.content.title}
         />
       </div>
       <div className="content">
         <div className="title">{props.content.title}</div>
-        <div className="issuer">{ProviderFullName(props.content.provider)}</div>
+        <div className="issuer">{props.content.issuer}</div>
         <div className="date">
           {FormatDate(props.content.issueData)} -{" "}
           {props.content.expiryDate
@@ -35,16 +35,6 @@ export const AchievementCard = (props: { content: IAchievement }) => {
       </div>
     </div>
   );
-};
-
-const ProviderFullName = (provider: string) => {
-  return provider === "googlecloud"
-    ? "Google Cloud Platform"
-    : provider === "coursera"
-    ? "Coursera"
-    : provider === "linkedin"
-    ? "LinkedIn"
-    : "";
 };
 
 const FormatDate = (dt: Date) => {

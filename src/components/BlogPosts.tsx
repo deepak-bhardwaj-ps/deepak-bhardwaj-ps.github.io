@@ -8,7 +8,7 @@ export const BlogPosts = (props: { posts: IBlogPost[] }) => {
     <section className="blog-posts-section" id="BlogPosts">
       <div className="posts-container">
         <div className="title">Blog Posts</div>
-        <div className="">{postsList}</div>
+        <div className="posts">{postsList}</div>
       </div>
     </section>
   );
@@ -16,7 +16,7 @@ export const BlogPosts = (props: { posts: IBlogPost[] }) => {
 
 export const BlogPost = (props: { post: IBlogPost }) => {
   return (
-    <div className="blog-slider__item swiper-slide blog-slider">
+    <div className="blog-slider__item blog-slider">
       <div className="blog-slider__img">
         <img src={"https://ico.now.sh/" + props.post.source + "/fff"} alt="" />
       </div>

@@ -1,5 +1,5 @@
 .about-section {
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -26,7 +26,7 @@
   }
   .image {
     align-self: flex-end;
-    width: -moz-available;
+    width: 50vw;
     img {
       width: 100%;
     }

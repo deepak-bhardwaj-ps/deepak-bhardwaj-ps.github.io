@@ -1,6 +1,10 @@
 section.skills-section {
   padding: 20px 0;
   background-color: #264653;
+  > div {
+    width: 100%;
+    align-self: center;
+  }
   .top-skills {
     display: flex;
     justify-content: center;

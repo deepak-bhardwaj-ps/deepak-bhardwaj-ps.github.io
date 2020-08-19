@@ -42,7 +42,8 @@ export interface IBlogPost {
 
 export interface IAchievement {
   title: string;
-  provider: string;
+  icon: string;
+  issuer: string;
   issueData: Date;
   expiryDate: Date | null;
 }
